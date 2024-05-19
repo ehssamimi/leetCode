@@ -9,11 +9,8 @@ var once = function(fn) {
         calls=calls+1;
         if(calls===1){
             return fn(...args)
-                  // return [{"calls":calls,"value":fn(...args)}]
-        }
-        // else{
-        //      return 'undefined, fn was not called'
-        // }
+         }
+      
   
         
     }
